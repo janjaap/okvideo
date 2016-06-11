@@ -183,7 +183,8 @@ var player, OKEvents, options;
     controls: false,
     autoplay: true,
     annotations: true,
-    cued: null
+    cued: null,
+    background: 1   //@see https://vimeo.com/forums/help/topic:278001
   };
 
   $.fn.okvideo = function (options) {
