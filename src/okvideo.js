@@ -101,7 +101,7 @@ var player, OKEvents, options;
 			// if necessary, debug with the most recent version of froogaloop
     	// base.insertJS('https://rawgithub.com/vimeo/player-api/master/javascript/froogaloop.js', function(){
     	// base.insertJS('http://a.vimeocdn.com/js/froogaloop2.min.js', function(){
-    	base.insertJS('//origin-assets.vimeo.com/js/froogaloop2.min.js', function(){
+    	base.insertJS('https://secure-a.vimeocdn.com/js/froogaloop2.min.js', function(){
         vimeoPlayerReady();
       });
     };
